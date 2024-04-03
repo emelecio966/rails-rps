@@ -4,4 +4,8 @@ class ZebraController < ApplicationController
 
     render({ :template => "game_templates/play_rock"}) 
   end 
+ 
+  #def elephant
+  #  # ...
+  # end
 end 
