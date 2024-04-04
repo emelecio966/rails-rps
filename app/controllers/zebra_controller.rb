@@ -5,7 +5,7 @@ class ZebraController < ApplicationController
     render({ :template => "game_templates/play_rock"}) 
   end 
  
-  #def elephant
-  #  # ...
-  # end
+  def elephant
+     @random_move = ["rock", "paper", "scissors" ].sample 
+  end
 end 
