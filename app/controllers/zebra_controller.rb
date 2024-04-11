@@ -18,8 +18,7 @@ class ZebraController < ApplicationController
   end 
 
   def rules 
-    @rand_move = ["rock", "paper", "scissors"].sample 
 
-    render ({ :template => "game_templates/play_rules"})
+    render ({ :template => "game_templates/rules"})
   end 
 end 
